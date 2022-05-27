@@ -7,7 +7,7 @@ for word in words:
 print("t",t)
 print(type(t[1]))
 t.sort(reverse=True)
-
+print(t)
 res = list()
 for length, word in t:
     res.append(word)
