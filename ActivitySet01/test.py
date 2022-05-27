@@ -1,11 +1,16 @@
-x=(input("enter the number:"))
-x=int(x)
-if (x<=80 and x>=60):
-    print(x,"is greater than 60")
-if (x<60 and x>=40):
-    print("number is greater than 40")
-if (x<40 and x>=20):
-    print("number is greater than 20")
-if (x>0 or x<20) :
-    print(x)
-print("program done")
+txt = 'but soft what light in yonder window breaks'
+words = txt.split()
+print("words:",words)
+t = list()
+for word in words:
+    t.append((len(word), word))
+print("t",t)
+print(type(t[1]))
+t.sort(reverse=True)
+
+res = list()
+for length, word in t:
+    res.append(word)
+    print("individual res",res)
+
+print("final res:",res)
