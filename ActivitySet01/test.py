@@ -14,11 +14,57 @@ for length, word in t:
     print("individual res",res)
 
 print("final res:",res)'''
-from xml.etree.ElementTree import PI
+'''from xml.etree.ElementTree import PI'''
 
 
-x = "Python is "
+'''x = "Python is "
 y = "awesome"
 z =  x + y
 print(z)
-print()
+print()'''
+'''x = 35e3
+y = 12E4
+z = -87.7e100
+
+print(type(x))
+print(type(y))
+print(type(z))
+'''
+'''import math
+a=float(input("Enter side1"))
+b=float(input("Enter side2"))
+c=float(input("Enter side3"))
+s=(a+b+c)/2
+area=math.sqrt(s*(s-a)*(s-b)*(s-c))
+print("Area of Triangle=", area)
+'''
+'''a=int(input("Enter first value"))
+b=int(input("Enter second value"))
+print("Before swapping, value of a=", a)
+print("Before swapping, value of b=", b)
+a,b=b,a
+print("After swapping, value of a=", a)
+print("After swapping, value of b=", b)'''
+
+
+
+'''def myfunction (country="india"):
+    print("my favourite country is "+country)
+myfunction ("usa")
+myfunction()'''
+'''
+L1 = ["apple", "banana", "cherry"]
+print(L1 [-1])'''
+
+
+'''L1 = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(L1[-4:-1])
+L1.insert(2,"index2")
+print(L1)
+L1 = ["apple", "banana", "cherry"]
+L1.pop(1)
+print(L1)
+print(L1.count("apple"))
+S1 = {"apple", "banana", "cherry"}
+print("banana" in S1)'''
+

@@ -1,2 +1,2 @@
 # the code below almost works
-print("hellow orld")
+print("hello w orld")
