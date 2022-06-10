@@ -1,2 +1,4 @@
 # the code below almost works
-print("hello w orld")
+s="string for sanz"
+n=s[12:]
+print(n)
