@@ -52,19 +52,30 @@ print("After swapping, value of b=", b)'''
     print("my favourite country is "+country)
 myfunction ("usa")
 myfunction()'''
-'''
-L1 = ["apple", "banana", "cherry"]
-print(L1 [-1])'''
+
+'''L1 = ["apple", "banana", "cherry"]
+print(L1 [-1:-2])'''
 
 
 '''L1 = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(L1[-4:-1])
-L1.insert(2,"index2")
+print(L1[-4:-1])'''
+'''L1.insert(2,"index2")
 print(L1)
 L1 = ["apple", "banana", "cherry"]
 L1.pop(1)
 print(L1)
 print(L1.count("apple"))
 S1 = {"apple", "banana", "cherry"}
-print("banana" in S1)'''
+print("banana" in S1)
 
+print(7//3)'''
+
+
+str1='CSE'
+str2='ECE'
+if str1 > str2:
+    print('str1 is greater than str2')
+elif str1 < str2:
+    print('str2 is greater than str1')
+else:
+    print('str1 is equal to str2')
