@@ -1,4 +1,4 @@
-fname = raw_input("Enter file name: ")
+fname = input("Enter file name: ")
 fh = open(fname)
 lst = list()                       # list for the desired output
 for line in fh:                    # to read every line of file romeo.txt
