@@ -71,11 +71,24 @@ print("banana" in S1)
 print(7//3)'''
 
 
-str1='CSE'
+'''str1='CSE'
 str2='ECE'
 if str1 > str2:
     print('str1 is greater than str2')
 elif str1 < str2:
     print('str2 is greater than str1')
 else:
-    print('str1 is equal to str2')
+    print('str1 is equal to str2')'''
+   
+'''
+def brin(a,b):
+    c=a[b]
+    return c
+a=input("enter the string")
+b=int(input("enter the index"))
+d=brin(a,b)
+print("the string is ",a)
+print("the string character at index is ",d)'''
+
+s="hello"
+print(s[])
