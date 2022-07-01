@@ -1,4 +1,10 @@
-# the code below almost works
-print("\u0C85 \u0CAD\u0CBF \u0CB6\u0CC6 \u0C95\u0CCD")
-print("\U0001F643")
-print("hello  worldd")
+x=int(input("enter the number of calls"))
+if x>200:
+	y=200+(x-200)*0.4 + 50*0.6 + 50*0.5    #or you could write y= 155+(x-200)*0.4
+elif x>150:
+	y=200+(x-100)*0.5
+elif x>100:
+	y=200+(x-100)*0.6
+else:
+	y=200
+print("the total cost of the telecalls is ",y)
