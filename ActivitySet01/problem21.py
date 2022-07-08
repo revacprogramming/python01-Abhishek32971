@@ -1,6 +1,3 @@
-[2:05 pm, 07/07/2022] ABHISHEK R PRASAD: #To be tested, not giving correct output.....
-
-
 import sqlite3
 conn = sqlite3.connect(':memory:')
 c = conn.cursor()
@@ -27,8 +24,6 @@ print(c.fetchall())
 
 conn.commit()
 conn.close()
-[2:05 pm, 07/07/2022] ABHISHEK R PRASAD: 20
-[2:05 pm, 07/07/2022] ABHISHEK R PRASAD: import sqlite3
 
 conn = sqlite3.connect('emaildb2.sqlite')
 cur = conn.cursor()
