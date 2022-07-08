@@ -4,11 +4,12 @@ def dictofallcom(a):
     for i in a:
         if l==len(a)-3:
             break
-        o=list()
-        l=l+1
-        for j in range(l+2,len(a)):
+        o=list()                           #create list to add all possible combinations 
+        l=l+1                              #::::l::::; is used to indicate the perticular index 
+        for j in range(l+2,len(a)):        #add all possible combinations form that index till end of string length(3 or more)
             o.append(a[l:j+1])
-        d[l]=o
+        d[l]=o                             #add individual list to dictionary with key as the index
+    print(d)           
     return d
 
 
