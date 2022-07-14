@@ -6,5 +6,5 @@ elif x>150:
 elif x>100:
 	y=200+(x-100)*0.6
 else:
-	y=2
+	y=200
 print("the total cost of the telecalls is ",y)
