@@ -90,5 +90,13 @@ d=brin(a,b)
 print("the string is ",a)
 print("the string character at index is ",d)'''
 
-s="hello"
-print(s[])
+'''s="hello"
+print(s[])'''
+
+strin="10 20"
+x=strin.split()
+#x=int(x)
+print(type(x[1]))
+for i in x:
+    i=int(i)
+    print(type(i))
