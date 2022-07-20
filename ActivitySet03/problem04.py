@@ -1,5 +1,5 @@
-'''def inptlst():'''
-    '''while(t):
+'''def inptlst():
+    while(t):
         a=input("enter the number of values")
         x=a.split()
     
@@ -11,8 +11,7 @@
             print("the length of the string is not the right value , kindly enter the right value")
             continue
         t-=1
-    '''
-'''    a=input("enter the number of values")
+    a=input("enter the number of values")
     y=input("enter the values")
 
     try:
@@ -52,7 +51,7 @@ def finllst(x):
             i+=1
             continue
 
-    ''''''elif(x[i]!=0):
+    ''' '''elif(x[i]!=0):
             if(x[i+1]!=0):
                 if(x[i+2]!=0):
                     y.append(x[i])
@@ -68,14 +67,14 @@ def finllst(x):
             y.append(x[i])
             i+=1
             print(y)
-    ''''''
-    return y'''
+    
+    return y
 
         
 
 
          
-'''
+
 def main():
     t=int(input("enter the number values you want to enter"))
     for i in range(t):
