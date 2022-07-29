@@ -93,10 +93,21 @@ print("the string character at index is ",d)'''
 '''s="hello"
 print(s[])'''
 
-strin="10 20"
+'''strin="10 20"
 x=strin.split()
 #x=int(x)
 print(type(x[1]))
 for i in x:
     i=int(i)
-    print(type(i))
+    print(type(i))'''
+
+'''typle1=([10,20,30],"reva",[5,15,9],(40,50))
+print(typle1[3])
+t=list(typle1[3])
+print(t[1])
+'''
+
+t={1:2,3:4}
+t2=dict
+print(t2.copy(t))
+print(t2)
