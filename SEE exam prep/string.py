@@ -1,3 +1,4 @@
+'''
 str1="everything is lost"
 print(str1[1:40])
 
@@ -10,3 +11,24 @@ def slicing():
 str1=str(input("Enter the string"))
 slicing()
 del str1
+
+str1="everything ise loest"
+s=str1.split('e',3)
+print(s)
+
+
+
+str1=("8888")
+if str1.isdigit():
+    print("yupp")
+if str1.find("r"):
+    print("yes")
+'''
+
+a=4
+b="abadaba"
+c=5.6
+
+print("this %d is number   \n this %s is string \n this is float %f"%(a,b,c))
+print(f"this {a} is number \n this {b}is string \n this {c} is float ")
+print("this is {} this is {} this is {}".format(a,b,c))
