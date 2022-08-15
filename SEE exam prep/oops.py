@@ -121,7 +121,7 @@ g.details()
 g.kill_dog()
 g.details()'''
 
-class student:
+'''class student:
     def __init__(self,name,age,height):
         self.name=name
         self.age=age
@@ -155,6 +155,7 @@ x=addstu()
 y=section(x)
 y.display()
 y.tallest()
+'''
 
 
 
