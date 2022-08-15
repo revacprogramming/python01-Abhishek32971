@@ -90,5 +90,76 @@ c.disprice()
 c.__price=3434
 c.disprice()
 c.chngprice(343455)
-c.disprice()'''
+c.disprice()
+print(c)'''
 
+
+
+
+
+'''class dog:
+    def __init__(self,name,color,mood,height):
+        self.name=name
+        self.color=color
+        self.__mood=mood
+        self.__height=height
+    
+    def change_mood(self,mood):
+        self.__mood=mood
+    
+    def change_height(self,height):
+        self.__height=height
+
+    
+    def details(self):
+        print(self.name,self.__mood,self.__height)
+    
+g=dog("bab","bab","bab","bab")
+g.details()
+g.change_mood("box")
+g.details()
+g.kill_dog()
+g.details()'''
+
+class student:
+    def __init__(self,name,age,height):
+        self.name=name
+        self.age=age
+        self.height=height
+    
+class section():
+    def __init__(self,stuobj):
+        self.stuobj=stuobj
+    def display(self):
+        for i in self.stuobj:
+            print(i.name,i.age,i.height)
+    def tallest(self):
+        x=self.stuobj[0]
+        for i in self.stuobj:
+            if i.height>x.height:
+                x=i
+        print("the tallest one is {} age {} height {}".format(x.name,x.age,x.height))
+
+def addstu():
+    x=input("do you want to enter student details(Y/N)")
+    if x=="Y":
+        studentobj=[]
+        n=int(input("enter the number of values to enter"))
+        for i in range(n):
+            name =input("enter name")
+            age=input("enter age")
+            height=int(input("enter height"))
+            studentobj.append(student(name,age,height))
+        return studentobj
+x=addstu()
+y=section(x)
+y.display()
+y.tallest()
+
+
+
+
+
+
+            
+    

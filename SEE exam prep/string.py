@@ -39,3 +39,7 @@ print(b[::-2])
 print(b[-1:4])
 print(b.strip("i"))
 print(b.index("i"))
+
+x="lambda"
+x+=x
+print(x)
