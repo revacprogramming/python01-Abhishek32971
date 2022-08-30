@@ -1,6 +1,6 @@
 import re
 
-'''
+
 patt1="[abc]"
 string1="aaaa"
 string2="bbb"
@@ -24,7 +24,7 @@ if re.search(patt1,string2):
 if re.search(patt1,string3):
     print("a ok")
 
-'''
+
 
 patt1="\Bfoo"
 string1="afoo"
@@ -57,26 +57,3 @@ if re.match(patt1,string1):
 
 
 
-
-'''
-if re.search(patt1,string1):
-    print("a ok")
-
-
-
-if re.search(patt1,string1):
-    print("a ok")
-
-
-
-
-
-if re.search(patt1,string1):
-    print("a ok")
-
-
-
-
-if re.search(patt1,string1):
-    print("a ok")
-'''

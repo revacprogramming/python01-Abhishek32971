@@ -107,7 +107,9 @@ t=list(typle1[3])
 print(t[1])
 '''
 
-t={1:2,3:4}
+'''t={1:2,3:4}
 t2=dict
 print(t2.copy(t))
 print(t2)
+'''
+print("big"<"small")

@@ -43,3 +43,7 @@ print(b.index("i"))
 x="lambda"
 x+=x
 print(x)
+
+str1='REVA'
+str1=str1.center(10)
+print(str1)
